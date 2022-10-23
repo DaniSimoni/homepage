@@ -287,9 +287,9 @@ h5 {
       background-image: linear-gradient(
         45deg, black 25%, #221133);
       color: white;
-      margin-left: 50px;
-      margin-right: 50px;
-      margin-top: 50px;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-top: 30px;
 }
 
 .skew-menu {
