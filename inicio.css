@@ -45,22 +45,30 @@ h1 {
 }
 
 
+
 h3 {
-  font-size: 1,5rem;
-  background-image: var(--gradient);
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  display: flex;
+  //place-content: left;
+  background-color: #DF6F29;
 
-  padding-top: 30px;
+  font-family: 'Noto Sans Display', sans-serif;
+
+  padding: 6px;
   margin-left: 0px;
-  item-align: left;
+  margin-right: 00px;
+  //item-align: left;
+  
 
-  display: grid;
-  place-content: left;
+    height: 20%vh;
+    width: 00%vh;
+    display: block;
+
+    font-size: 16px;
+    color: #330249;
+    text-align: center;
+
+    border-radius: 0 0 4rem 4rem;
+  
 
 }
 
@@ -77,21 +85,23 @@ p {
 }
 
 div {
-  display: grid;
+  display: block;
   place-content: center;
   font-family: 'Noto Sans Display', sans-serif;
+
 }
 
 .button {
-  display: grid;
-  place-content: center;
+display: block;
 
 }
 
 .skew-menu {
-  display: center;
-
-  
+  display: inline;
+  width: 19%vh;
+  height: 10%vh;
+  content-widt: 18px;
+ 
   
 }
 .skew-menu ul {
@@ -100,24 +110,26 @@ div {
   padding: 0;
   list-style: none;
   transform: skew(-25deg);
+  
 
 
 }
 
 
 .skew-menu ul li {
-  background: #DF6F29;
+  background: rgb(67 231 17);
   float: left;
   border-right: 1px solid #DF6F29;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
   text-transform: uppercase;
-  color: #fff;
+  color: #330249;
   font-weight: bolder;
   transition: all 0.5s linear;
-  width: 19%;
-  height: 10%;
+  width: 19%vh;
+  height: 10%vh;
   font-size: 18px;
   padding-right: 5px;
+  font-size: 13px;
 
 
 }
@@ -202,4 +214,43 @@ img {
   margin-left: 10px;
   margin-top: 0px;
   
+}
+
+.paragraph {
+  background-color: #DF6F29;
+  padding: 25px;
+  border-radius: 25px;
+  color: #330249;
+}
+
+.navegation {
+  display: flex;
+  font-size: 37px;
+  content-align: center;
+  }
+
+.contact {
+  display: block;
+  content-align: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.hobby {
+  font-family: 'Noto Sans Display', sans-serif;
+  color: #DF6F29;
+  text-color: #fff;
+}
+
+.link {
+  display: flex;
+  content-align: center;
+}
+
+
+
+@media(max-width: 800px){
+    .skew-menu {
+      min-width: 100%;
+    }
 }
