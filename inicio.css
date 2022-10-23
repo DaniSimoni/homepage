@@ -1,0 +1,205 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  background-size: 100%;
+    }
+
+header {
+  display: grid;
+  place-content: center;
+}
+
+body {
+  background-image: linear-gradient(
+    45deg, black 25%, #221133);
+  color: white;
+  margin-left: 250px;
+  margin-right: 250px;
+  margin-top: 50px;
+  
+}
+
+:root {
+  --gradient: linear-gradient(
+      to right,
+      rgb(149 114 252),
+      rgb(67 231 17),
+      rgb(94 94 94)
+  )
+}
+
+
+h1 {
+  font-family: 'Big Shoulders Inline Text', cursive;
+  font-size: 4rem;
+
+  background-image: var(--gradient);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+
+  place-content: center;
+  display: grid;
+  
+}
+
+
+h3 {
+  font-size: 1,5rem;
+  background-image: var(--gradient);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  padding-top: 30px;
+  margin-left: 0px;
+  item-align: left;
+
+  display: grid;
+  place-content: left;
+
+}
+
+
+p {
+  display: flex;
+  margin-left: 20;
+  padding: 20;
+  box-sizing: border-box;
+  display: center;
+  color-text: 'white';
+  font-family: 'Noto Sans Display', sans-serif;
+
+}
+
+div {
+  display: grid;
+  place-content: center;
+  font-family: 'Noto Sans Display', sans-serif;
+}
+
+.button {
+  display: grid;
+  place-content: center;
+
+}
+
+.skew-menu {
+  display: center;
+
+  
+  
+}
+.skew-menu ul {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  transform: skew(-25deg);
+
+
+}
+
+
+.skew-menu ul li {
+  background: #DF6F29;
+  float: left;
+  border-right: 1px solid #DF6F29;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: bolder;
+  transition: all 0.5s linear;
+  width: 19%;
+  height: 10%;
+  font-size: 18px;
+  padding-right: 5px;
+
+
+}
+.skew-menu ul li:first-child {
+  border-radius: 7px 0 0 7px;
+}
+
+
+.skew-menu ul li:last-child {
+  border-right: none;
+  border-radius: 0 7px 7px 0;
+}
+
+
+.skew-menu ul li:hover {
+  background: #fff;
+  color: #fff;
+}
+
+
+.skew-menu ul li a {
+  display: block;
+  padding: 1em 2em;
+  color: inherit;
+  text-decoration: #DF6F29;
+  transform: skew(25deg);
+ 
+}
+
+
+
+button {
+  
+  color:aliceblue;
+  margin-left: 75%;
+  
+  }
+
+.joinBtn {
+  width: 10em;
+  height: 5ex;
+  background-image: linear-gradient(135deg, #DF6F29 60%, #ffff);
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  align: center;
+}
+
+.joinBtn:active {
+  box-shadow: 2px 2px 5px #fc894d;
+  align: center;
+}
+
+label {
+      display: block;
+      margin-top: 1em;
+  }
+  
+  input:autofill {
+      border: 3px solid darkorange;
+  }
+  
+  input:-webkit-autofill {
+      border: 3px solid darkorange;
+  }
+
+  
+
+form {
+  display: inline-block;
+  place-content: center;
+  element-size: 100px;
+}
+
+img {
+  display: flex-direction;
+  flex-direction: column;
+  items-align: center;
+  height: 150px;
+  margin-left: 10px;
+  margin-top: 0px;
+  
+}
