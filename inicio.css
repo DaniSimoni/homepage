@@ -8,6 +8,8 @@
 header {
   display: grid;
   place-content: center;
+  margin: 0 auto;
+  
 }
 
 body {
@@ -103,51 +105,50 @@ div {
   display: block;
   place-content: center;
   font-family: 'Noto Sans Display', sans-serif;
+  
 
 }
 
 .button {
 display: block;
+margin: 0 auto;
 
 }
 
 .skew-menu {
   display: inline;
-  width: 19%vh;
-  height: 10%vh;
-  content-widt: 18px;
+  //width: 19%vh;
+  //height: 10%vh;
+  //content-widt: 18px;
+ // margin: 0 auto;
  
   
 }
 .skew-menu ul {
   display: inline-block;
-  margin: 0;
-  padding: 0;
+ // margin: 0;
+ // padding: 0;
   list-style: none;
   transform: skew(-25deg);
-  
-
-
-}
+  }
 
 
 .skew-menu ul li {
   background: rgb(67 231 17);
   float: left;
   border-right: 1px solid #DF6F29;
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
   text-transform: uppercase;
   color: #330249;
   font-weight: bolder;
   transition: all 0.5s linear;
-  width: 19%vh;
+  width: %vh;
   height: 10%vh;
-  font-size: 18px;
-  padding-right: 5px;
-  font-size: 13px;
-
-
+  padding: 0 8px 0 8px;
+  font-size: 20px;
 }
+
+
 .skew-menu ul li:first-child {
   border-radius: 7px 0 0 7px;
 }
@@ -167,11 +168,11 @@ display: block;
 
 .skew-menu ul li a {
   display: block;
-  padding: 1em 2em;
+  padding: 1rem 1rem 1rem;
   color: inherit;
   text-decoration: #DF6F29;
   transform: skew(25deg);
- 
+  
 }
 
 
@@ -179,7 +180,7 @@ display: block;
 button {
   
   color:aliceblue;
-  margin-left: 75%;
+
    
   }
 
@@ -337,6 +338,7 @@ h5 {
 
 .skew-menu {
   min-width: 100%;
+
 }
 
 .skew-menu ul  {
@@ -345,12 +347,26 @@ h5 {
 
 .skew-menu ul li {
   min-width: 10%;
-  content-size: 00%;
   display: flex;  
   padding-right: 0px;
   font-size: 8px;
-  
+  margin: 0 auto;
 }
+
+  .skew-menu ul li a {
+    display: block;
+    padding: 10px 12px 10px 7px;
+    color: inherit;
+    text-decoration: #DF6F29;
+    transform: skew(25deg);
+    
+    
+    
+   
+  }
+}
+
+
 
 @keyframes mymove {
   0%   {top: 0px; left: 0px; color: red;}
