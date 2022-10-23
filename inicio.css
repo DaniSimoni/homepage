@@ -223,11 +223,29 @@ img {
   color: #330249;
 }
 
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+
 .paragraph1 {
   background-color: #9BE780;
   padding: 15px;
   border-radius: 25px;
   color: #330249;
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-timing-function: linear;
   
 }
 
@@ -237,6 +255,11 @@ img {
   border-radius: 25px;
   color: #330249;
   margin-left: 20px;
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: 1;
+  animation-direction: revert;
+  animation-timing-function: ease;
 }
 
 .paragraph3 {
@@ -245,6 +268,11 @@ img {
   border-radius: 25px;
   color: #330249;
   margin-right: 20px;
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: 1;
+  animation-direction: revert;
+  animation-timing-function: ease-in;
 }
 
 .navegation {
@@ -320,6 +348,8 @@ h1 {
 
   place-content: center;
   display: grid;
+
+  
   
 }
 
@@ -340,11 +370,29 @@ p {
     color: #330249;
   }
 
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+
   .paragraph1 {
     background-color: #9BE780;
     padding: 15px;
     border-radius: 25px;
     color: #330249;
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    animation-timing-function: linear;
     
   }
 
@@ -354,6 +402,11 @@ p {
     border-radius: 25px;
     color: #330249;
     margin-left: 20px;
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: 1;
+    animation-direction: revert;
+    animation-timing-function: ease;
   }
 
   .paragraph3 {
@@ -362,6 +415,11 @@ p {
     border-radius: 25px;
     color: #330249;
     margin-right: 20px;
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: 1;
+    animation-direction: revert;
+    animation-timing-function: ease-in;
   }
 
 
@@ -437,3 +495,7 @@ p {
       text-decoration :  none ;
       color: white;
     }
+
+
+
+
