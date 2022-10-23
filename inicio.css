@@ -249,10 +249,7 @@ img {
 
 
 
-@media(max-width: 800px){
-    .skew-menu {
-      min-width: 100%;
-    }
+@media(max-width: 700px){
     
     body {
       background-image: linear-gradient(
@@ -263,11 +260,88 @@ img {
       margin-top: 50px;
 }
 
-.skew-menu git {
+.skew-menu {
+  min-width: 100%;
+}
 
-  width: 9%vh;
-  height: 4%vh;
-  font-size: 11px;
-  padding-right: 5px;
+.skew-menu ul  {
+  min-width: 100%;
+}
+
+.skew-menu ul li {
+  min-width: 10%;
+  content-size: 00%;
+  display: flex;  
+  padding-right: 0px;
+  font-size: 6px;
+  
+}
+
+h1 {
+  font-family: 'Big Shoulders Inline Text', cursive;
+  font-size: 2rem;
+
+  background-image: var(--gradient);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+
+  place-content: center;
+  display: grid;
+  
+}
+
+p {
+  display: flex;
+  margin-left: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  display: center;
+  color-text: 'white';
+  font-family: 'Noto Sans Display', sans-serif;
   font-size: 13px;
 }
+  .paragraph {
+    background-color: #DF6F29;
+    padding: 15px;
+    border-radius: 25px;
+    color: #330249;
+  }
+  .navegation {
+    display: flex;
+    font-size: 25px;
+    content-align: center;
+    }
+  
+  .contact {
+    display: block;
+    content-align: center;
+    text-align: center;
+    justify-content: center;
+  }
+
+  h3 {
+    display: flex;
+    //place-content: left;
+    background-color: #DF6F29;
+  
+    font-family: 'Noto Sans Display', sans-serif;
+  
+    padding: 3px;
+    margin-left: 0px;
+    margin-right: 00px;
+    //item-align: left;
+    
+  
+      height: 20%vh;
+      width: 00%vh;
+      display: block;
+  
+      font-size: 13px;
+      color: #330249;
+      text-align: center;
+  
+      border-radius: 0 0 4rem 4rem;
+    
+  
+  }
