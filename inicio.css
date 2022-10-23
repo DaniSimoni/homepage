@@ -223,6 +223,30 @@ img {
   color: #330249;
 }
 
+.paragraph1 {
+  background-color: #9BE780;
+  padding: 15px;
+  border-radius: 25px;
+  color: #330249;
+  
+}
+
+.paragraph2 {
+  background-color: #E7CA80;
+  padding: 15px;
+  border-radius: 25px;
+  color: #330249;
+  margin-left: 20px;
+}
+
+.paragraph3 {
+  background-color: #80CEE7;
+  padding: 15px;
+  border-radius: 25px;
+  color: #330249;
+  margin-right: 20px;
+}
+
 .navegation {
   display: flex;
   font-size: 37px;
@@ -315,6 +339,32 @@ p {
     border-radius: 25px;
     color: #330249;
   }
+
+  .paragraph1 {
+    background-color: #9BE780;
+    padding: 15px;
+    border-radius: 25px;
+    color: #330249;
+    
+  }
+
+  .paragraph2 {
+    background-color: #E7CA80;
+    padding: 15px;
+    border-radius: 25px;
+    color: #330249;
+    margin-left: 20px;
+  }
+
+  .paragraph3 {
+    background-color: #80CEE7;
+    padding: 15px;
+    border-radius: 25px;
+    color: #330249;
+    margin-right: 20px;
+  }
+
+
   .navegation {
     display: flex;
     font-size: 25px;
@@ -370,4 +420,20 @@ p {
       color: white;
       cursor: pointer;
       align: center;
+    }
+
+    
+    form {
+      display: flex;
+      place-content: left;
+      element-size: 50px;
+      content-align: center;
+      text-decoration : none ;
+      color: black;
+
+    }
+
+    .hobby {
+      text-decoration :  none ;
+      color: white;
     }
