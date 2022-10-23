@@ -262,4 +262,12 @@ img {
       margin-right: 50px;
       margin-top: 50px;
 }
+
+.skew-menu ul li {
+
+  width: 9%vh;
+  height: 4%vh;
+  font-size: 11px;
+  padding-right: 5px;
+  font-size: 13px;
 }
