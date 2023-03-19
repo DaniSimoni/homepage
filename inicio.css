@@ -15,8 +15,8 @@ body {
   display: flex-column;
   margin-bottom: 100%;
   background-size: 100%;
-/*   min-height: 100vh;
-  min-width: 100vw; */
+  min-height: 100vh;
+  min-width: 100vw;
 
   
  }
@@ -287,7 +287,7 @@ p {
 
 .slide{
   width: 25%;
-  position: relative;
+  position: center;
   transition: 1s;
 }
 
@@ -472,7 +472,7 @@ img {
   flex-direction: column;
   items-align: center;
   height: 150px;
-  margin-left: 10px;
+  margin-left: 00px;
   margin-top: 0px;
   
 }
@@ -482,7 +482,7 @@ img {
   flex-direction: center;
   items-align: center;
   height: 250px;
-  margin-left: 8%;
+  margin-left: 0%;
   margin-top: 10px;
   
 }
@@ -687,4 +687,92 @@ h5 {
     margin-left: 1vw;
     
   }
+
+  .formacao {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1vw;
+  }
+
+  .grade{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1vw;
+  }
+}
+
+@media screen and (min-width: 460px) and (max-width: 720px) {
+
+  .list{
+    display: grid;
+    justify-content: center;
+    align-items: column;
+    font-size: 80px;
+  }
+
+  .menu{
+    display: grid;
+    justify-content: center;
+    align-items: column;
+    margin-top: 50px;
+    
+  }
+  .tag1{    
+    display: block;
+    justify-content: center;
+    align-items: center;
+   
+    
+  }
+  .formacao {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1vw;
+  }
+
+  .grade{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1vw;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .list{
+    display: grid;
+    justify-content: center;
+    align-items: column;
+    font-size: 80px;
+  }
+
+  .menu{
+    display: grid;
+    justify-content: center;
+    align-items: column;
+    margin-top: 50px;
+    
+  }
+  .tag1{    
+    display: block;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .formacao {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1vw;
+  }
+  .grade{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1vw;
+  }
+
 }
