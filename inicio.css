@@ -763,7 +763,7 @@ h5 {
 
   .slider{
     margin: 0 auto;
-    width: 300px;
+    width: 350px;
     height: 200px;
     overflow: hidden;
   
@@ -786,14 +786,14 @@ h5 {
   }
   
   .slide img{
-    width: 300px;
+    width: 350px;
     height: 200px;
    
   }
   
   .manual-navigation{
     position: absolute;
-    width: 300px;
+    width: 350px;
     margin-top: -56px;
     display: flex;
     justify-content: center;
@@ -842,7 +842,7 @@ h5 {
   
   .navigation-auto{
     position: absolute;
-    width: 300px;
+    width: 350px;
     margin-top: 360px;
     display: flex;
     justify-content: center;
