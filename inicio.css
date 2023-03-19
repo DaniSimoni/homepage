@@ -12,12 +12,12 @@ body {
     45deg, black 25%, #221133);
   color: white;
   margin-top: 10px;
- 
+  display: flex-column;
   justify-content: center;
-  margin-bottom: 100%;
-  background-size: 100%;
-  min-height: 100vh;
-  min-width: 100vw;
+  margin-bottom: 100vh;
+  background-size: 100vw;
+/*   min-height: 100vw;
+  min-width: 100vw; */
 
   
  }
@@ -293,7 +293,7 @@ p {
 }
 
 .slide img{
-  width: 790px;
+  width: 800px;
   height: 400px;
  
 }
@@ -639,33 +639,7 @@ h5 {
 
 @media screen and (min-width: 720px) and (max-width: 1200px) {
 
-  .slider{
-     width: 700px;
-   }
   
- /*  */
-  
-  .slide img{
-    width: 700px;
-  }
-  
-  .manual-navigation{
-      width: 700px;
-  }
-  
-  .slides{
-    width: 407%;
-    height: 400px;
-    display: flex;
-  }
-  
-  .manual-btn:not(:last-child){
-   margin-right: 40px;
-  }
-  
-    .navigation-auto{
-    width: 700px;
-  }
 
  .menu{
     display: grid;
@@ -689,9 +663,6 @@ h5 {
     font-size: 80px;
   }
 
- 
-  
-
   .formacao {
     display: block;
     justify-content: center;
@@ -707,7 +678,8 @@ h5 {
   }
 }
 
-@media screen /* and (min-width: 460px)  */and (max-width: 720px) {
+@media screen  and (min-width: 460px)  and (max-width: 720px) {
+  
   .menu{
     display: grid;
     justify-content: center;
@@ -716,6 +688,8 @@ h5 {
     
   }
   
+
+
   .tag1{    
     display: block;
     justify-content: center;
@@ -748,16 +722,20 @@ h5 {
   }
 }
 
-/* @media screen and (max-width: 460px) {
-  .list{
-    display: grid;
+
+
+@media screen and (max-width: 460px) {
+
+
+  .list{ border: 10px solid red;
+    display: block;
     justify-content: center;
     align-items: column;
     font-size: 50px;
   }
 
   .menu{
-    display: grid;
+    display: block;
     justify-content: center;
     align-items: column;
     margin-top: 50px;
@@ -782,26 +760,5 @@ h5 {
     margin-left: 1vw;
   }
 
-  .slide img{
-    width: 450px;
-  }
   
-  .manual-navigation{
-      width: 450px;
-  }
-  
-  .slides{
-    width: 407%;
-    height: 400px;
-    display: flex;
-  }
-  
-  .manual-btn:not(:last-child){
-   margin-right: 40px;
-  }
-  
-    .navigation-auto{
-    width: 450px;
-  }
-
-} */
+} 
