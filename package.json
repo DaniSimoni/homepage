@@ -1,14 +1,24 @@
 {
   "name": "homepage",
   "version": "1.0.0",
-  "description": "Aprendendo e aplicando",
+  "description": "minha home test",
   "main": "scripts.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "node.js": "^0.0.1-security"
-  }
+  },
+  "devDependencies": {},
+  "scripts": {
+    "server": "webpack-dashboard -- webpack-dev-server --inline --port 8080",
+    "webdriver-update": "webdriver-manager update"
+ },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaniSimoni/homepage.git"
+  },
+  "author": "dani.simoni",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DaniSimoni/homepage/issues"
+  },
+  "homepage": "https://github.com/DaniSimoni/homepage#readme"
 }
