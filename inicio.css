@@ -66,6 +66,10 @@ h3 {
   border-radius: 4rem 4rem;
 }
 
+h5 {
+  font-family: 'Noto Sans Display', sans-serif;
+  font-size: 10px;
+} 
 
 p {
   display: flex;
@@ -624,10 +628,7 @@ img {
   content-align: center;
 }
 
-h5 {
-  font-family: 'Noto Sans Display', sans-serif;
-  font-size: 10px;
-}
+
 
 
 
@@ -676,7 +677,123 @@ h5 {
     align-items: center;
     margin-left: 1vw;
   }
+  .titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10vw;
+    background: white;
+    margin: 5% auto;
+    font-family: 'Libre Barcode 39 Text', cursive;
+    width: 500px;
+  }
+  .formacao {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1px;
+    width: %vw;
+  }
+
+  .areas{
+    border: 1px solid #fff;
+    width: 95vw;
+    height: %px;
+    margin: 10vw 10vw 1vw;
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px 0;
+  
+  } 
+
+  h3 {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    background-color: #6666ff;
+    font-family: Aclonica;
+    padding: 5px 5px 5px 20px;
+    margin: 20px 15px 0px;
+    height: 3%;
+    width: 40%;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 4rem 4rem;
+  }
+  
+  
+  p {
+    display: flex;
+    margin: 10px 0px 10px 0px ;
+    padding: 10px;
+    width: 90vw;
+    height: auto;
+    background-color: white;
+    color: #000;
+    font-family: 'Noto Sans Display', sans-serif;
+    size: 40px;
+    
+  }
+
+  .titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15vw;
+    background: white;
+    margin: 5% auto;
+    font-family: 'Libre Barcode 39 Text', cursive;
+    width: 600px;
+  }
+  .areas2{
+    border: 1px solid #fff;
+    width: 95vw;
+    height: %px;
+    margin: 2vw 2vw 1vw 2vw;
+    display: block;
+    padding: 0 10px 0;
+  
+  } 
+  .cargos{
+    border: 1px solid red;
+    background: red;
+    width: 70vw;
+    height: %px;
+    margin: 5vw 5vw;
+    display: block;
+    padding: 0 10px 0;
+    font-size: 15px;
+  
+  } 
+
+  .experiences {
+    font-family: 'Noto Sans Display', sans-serif;
+    font-size: 15px;
+    width: 90vw;
+  }
+  .areas3{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #fff;
+    width: 95vw;
+    margin: 15px 15px;
+    display: block;
+    padding: 0 0 2vw;
+    
+  } 
+  .img2 {
+    display: flex;
+    flex-direction: column;
+    items-align: center;
+    width:80vw;
+    height: 43vw;
+  
+    margin: 5vw;
+  }
 }
+
 
 @media screen  and (min-width: 460px)  and (max-width: 720px) {
   
@@ -708,10 +825,11 @@ h5 {
   }
 
   .formacao {
-    display: block;
+    display: grid;
     justify-content: center;
     align-items: center;
-    margin-left: 1vw;
+    margin-left: 1px;
+    width: %vw;
   }
 
   .grade{
@@ -729,7 +847,65 @@ h5 {
     padding: 0 10px 0;
   
   } 
+  .titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15vw;
+    background: white;
+    margin: 5% auto;
+    font-family: 'Libre Barcode 39 Text', cursive;
+    width: 600px;
+  }
+  .areas2{
+    border: 1px solid #fff;
+    width: 95vw;
+    height: %px;
+    margin: 2vw 2vw 1vw 2vw
+    display: block;
+    padding: 0 10px 0;
+  
+  } 
+  .cargos{
+    border: 1px solid red;
+    background: red;
+    width: 70vw;
+    height: %px;
+    margin: 5vw 5vw;
+    display: block;
+    padding: 0 10px 0;
+    font-size: 15px;
+  
+  } 
+
+  .experiences {
+    font-family: 'Noto Sans Display', sans-serif;
+    font-size: 15px;
+    width: 80vw;
+  }
+
+  .areas3{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #fff;
+    width: 95vw;
+    margin: 15px 15px;
+    display: block;
+    padding: 0 0 2vw;
+    
+  } 
+  .img2 {
+    display: flex;
+    flex-direction: column;
+    items-align: center;
+    width:80vw;
+    height: 43vw;
+  
+    margin: 5vw;
+  }
 }
+
 
 
 
@@ -759,12 +935,12 @@ h5 {
     align-items: center;
 
   }
-  .formacao {
+/*   .formacao {
     display: block;
     justify-content: center;
     align-items: center;
     margin-left: 1vw;
-  }
+  } */
   .grade{
     display: block;
     justify-content: center;
@@ -867,7 +1043,7 @@ h5 {
     display: flex;
     justify-content: center;
     align-items: center;
-  
+    width: 100%;
     background: white;
    
   }
@@ -882,7 +1058,7 @@ h5 {
 
   .areas{
     border: 1px solid #fff;
-    width: 350px;
+    width: 95vw;
     height: %px;
     margin: 25px 35px;
     display: flexbox;
@@ -912,13 +1088,80 @@ h5 {
     display: flex;
     margin: 10px 0px 10px 0px ;
     padding: 10px;
-    width: 330px;
+    width: 90vw;
     height: auto;
     background-color: white;
     color: #000;
     font-family: 'Noto Sans Display', sans-serif;
-    size: 50px;
+    size: 40px;
     
-  
   }
+  
+  .grade{
+    display: grid;
+    justify-content: center;
+    align-items: space-between;
+    width: 100vw;
+  }
+  .areas2{
+    border: 1px solid #fff;
+    width: 90vw;
+    height: %px;
+    margin: 1px 1px;
+    display: block;
+    padding: 0 10px 0;
+  
+  } 
+  .cargos{
+    border: 1px solid red;
+    background: red;
+    width: 70vw;
+    height: %px;
+    margin: 5vw 5vw;
+    display: block;
+    padding: 0 10px 0;
+    font-size: 15px;
+  
+  } 
+
+  .experiences {
+    font-family: 'Noto Sans Display', sans-serif;
+    font-size: 15px;
+    width: 85vw;
+  }
+  .titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10vw;
+    background: white;
+    margin: 5% auto;
+    font-family: 'Libre Barcode 39 Text', cursive;
+    width: 300px;
+  }
+  .areas3{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #fff;
+    width: 95vw;
+    margin: 15px 15px;
+    display: block;
+    padding: 0 0 2vw;
+    
+  } 
+  .img2 {
+    display: flex;
+    flex-direction: column;
+    items-align: center;
+    width:80vw;
+    height: 43vw;
+  
+    margin: 5vw;
+  } 
+
+  .outro{
+    width: 70vw;
+  }
+
 } 
