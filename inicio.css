@@ -720,7 +720,18 @@ h5 {
     align-items: center;
     margin-left: 1vw;
   }
+  .areas{
+    border: 1px solid #fff;
+    width: 500px;
+    height: %px;
+    margin: 25px 35px;
+    display: block;
+    padding: 0 10px 0;
+  
+  } 
 }
+
+
 
 
 
