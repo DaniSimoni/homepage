@@ -24,9 +24,10 @@ body {
 
 .menu{
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  margin-top: 50px;
+ 
   
 }
 
@@ -53,18 +54,16 @@ h1 {
 
 h3 {
   display: flex;
+  flex-wrap: wrap;
+  gap:2;
   justify-content: center;
   align-items: center;
   background-color: #6666ff;
   font-family: Aclonica;
-  padding: 1.5rem;
-/*   margin-top: 1rem;
-  margin-left: auto;
-  margin-right: auto; */
-  margin: 1rem auto 0 auto;
-  height: 3%;
-  width: 60%;
-  font-size: 16px;
+  padding: 3%;
+  margin: 3% auto 0 auto;
+  width: 70%;
+  font-size: 100%;
   color: #fff;
   border-radius: 4rem 4rem;
 }
@@ -80,61 +79,45 @@ p {
   align-items: center;
   margin-left: 5%;
   margin-right: 5%;
-  padding: 10px 15px;
-  width: auto;
+  padding: 2% 5%;
+  width: 90%;
   height: auto;
   background-color: white;
   color: #000;
   font-family: 'Noto Sans Display', sans-serif;
-  size: 50px;
+  size: 100%;
   
 }
 
 
-.areas{
-  border: 1px solid #fff;
-  width: 550px;
-  height: %px;
-  margin: 25px 50px;
-  display: block;
-  padding: 0 10px 0;
-
+.areas , .areas2 , .areas3{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   border: 1px solid #fff;
+   width: 550px;
+   height: %px;
+   margin: 2%;
+   display: block;
+   padding: 0 1% 2%;
 } 
 
-.areas2{
-  border: 1px solid #fff;
-  width: 550px;
-  height: %px;
-  margin: 15px 15px;
-  display: block;
-  padding: 0 10px 0;
-
-} 
-
-.areas3{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  border: 1px solid #fff;
-  width: 550px;
-  height: %px;
-  margin: 15px 15px;
-  display: block;
-  padding: 0 10px 0;
-
-} 
 
 .list{
+  display: flex;
+  flex-wrap: wrap;
   font-family: 'Libre Barcode 39 Text', cursive;
-  font-size: 50px;
+  font-size: 280%;
   color: #000;
   background: white;
-  padding: 20px;
+  padding: 2vh;
+  margin-bottom: 5%;
 }
 
 .tag1{
-  display:block;
+  display:flex;
+  flex-wrap: wrap;
   margin-left: 5px;
   shadow: 0 1px 0 rgba(#fff);
 }
@@ -171,8 +154,11 @@ p {
     
 .formacao {
   display: flex;
+  flex-wrap: wrap;
+  gap: 2;
   justify-content: center;
   align-items: space-between;
+
   
 
 
@@ -195,6 +181,7 @@ p {
 
 .grade{
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: space-between;
 }
@@ -215,82 +202,22 @@ p {
 }
 
 
-
-
-
-
-/* .skew-menu {
-    display: inline;
-    font-family: 'Libre Barcode 39 Text', cursive;
-}
-    
-    
-    
-.skew-menu ul {
-    display: inline-block;
-    
-    list-style: none;
-    transform: skew(-25deg);
-}
-    
-    
-    .skew-menu ul li {
-      background: rgb(67 231 17);
-      float: left;
-      border-right: 1px solid #DF6F29;
-      box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
-      text-transform: uppercase;
-      color: #fffff ;
-      font-weight: bolder;
-      transition: all 0.5s linear;
-      width: %vh;
-      height: 10%vh;
-      padding: 0 8px 0 8px;
-      font-size: 20px;
-    }
-     */
-    
- /*    .skew-menu ul li:first-child {
-      border-radius: 7px 0 0 7px;
-    }
-    
-    
-    .skew-menu ul li:last-child {
-      border-right: none;
-      border-radius: 0 7px 7px 0;
-    }
-    
-    
-    .skew-menu ul li:hover {
-      background: #fff;
-      color: #fff;
-    }
-    
-    
-    .skew-menu ul li a {
-      display: block;
-      padding: 1rem 1rem 1rem;
-      color: inherit;
-      text-decoration: #DF6F29;
-      transform: skew(25deg);
-      
-    } */
-    
-    
-
-
 .slider{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0;
   margin: 0 auto;
-  width: 800px;
-  height: 400px;
+  width: 60%;
+  height: auto;
   overflow: hidden;
 
 }
 
 .slides{
-  width: 400%;
-  height: 400px;
+  width: 100%;
+  height: auto;
   display: flex;
+
 }
 
 .slides input{
@@ -304,16 +231,17 @@ p {
 }
 
 .slide img{
-  width: 800px;
-  height: 400px;
- 
+  width: 400%;
+  height: 80%;
+
 }
 
 .manual-navigation{
   position: absolute;
-  width: 800px;
-  margin-top: -56px;
+  width: 60%;
+  margin-top: -30%;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
 }
 
@@ -360,8 +288,8 @@ p {
 
 .navigation-auto{
   position: absolute;
-  width: 800px;
-  margin-top: 360px;
+  width: 60%;
+  margin-top: 30%;
   display: flex;
   justify-content: center;
 }
@@ -385,15 +313,6 @@ p {
 #radio4:checked ~ .navigation-auto .auto-btn4{
   background-color:#fff;
 }
-
-
-
-
-
-
-
-
-
 
 
 :root {
@@ -422,24 +341,12 @@ footer{
 }
 
 
-
-
-
-
-
 .button {
 display: block;
 margin: 0 auto;
 
 }
 
-
-/* button {
-  
-  color:aliceblue;
-
-   
-  } */
 
 .joinBtn {
   width: 10em;
@@ -479,7 +386,7 @@ form {
   element-size: 100px;
 }
 
-img {
+/* img {
   display: flex-direction;
   flex-direction: column;
   items-align: center;
@@ -487,15 +394,15 @@ img {
   margin-left: 00px;
   margin-top: 0px;
   
-}
+} */
 
-.img2 {
+img , .img2 {
   display: flex;
   flex-wrap: wrap;
   gap: 5px;
   justify-items: center;
   items-align: center;
-  height: 250px;
+  width: 90%;
   margin-left: auto;
   margin-right:auto;
   margin-top: 10px;
@@ -648,7 +555,7 @@ img {
 
 
 
-@media screen and (min-width: 720px) and (max-width: 1200px) {
+/* @media screen and (min-width: 720px) and (max-width: 1200px) {
 
   
 
@@ -812,65 +719,11 @@ img {
   background-size: 100%;
  }
  
-/*   .slider{
-    margin: 2vw 2vw 2vw 2vw;
-    width: 95vw;
-    height: 50vw;
-    overflow: hidden;
-  
-  }
-  
-  .slides{
-    width: 450%;
-    height: 400px;
-    display: flex;
-  }
-  
-  .slides input{
-    display: none;
-  }
-  
-  .slide{
-    width: 25%;
-    position: center;
-    transition: 1s;
-  }
-  
-  .slide img{
-    width: 95vw;
-    height: 50vw;
-   
-  }
-  
-  .manual-navigation{
-    position: absolute;
-    width: ;
-    margin-top: 1%;
-    display: flex;
-    justify-content: center;
-  }
-  
-  .manual-btn{
-    border: 1px solid red;
-    padding: 5px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: 1s;
-    margin-top: 10px;
-  }
-    
-  .navigation-auto{
-    width: 95vw;
-    margin-top: 45vw;
-
-  } */
-
   .menu{
     display: block;
     justify-content: center;
     align-items: column;
-/*     margin: 10vw;
-    width: 70vw; */
+
    
   }
 
@@ -1003,13 +856,6 @@ img {
   }
 
 
- 
-/*   .formacao {
-    display: block;
-    justify-content: center;
-    align-items: center;
-    margin-left: 1vw;
-  } */
   .grade{
     display: block;
     justify-content: center;
@@ -1017,62 +863,7 @@ img {
     margin-left: 1vw;
   }
 
-  /* .slider{
-    margin: 1vw 1vw 1vw 1vw;
-    width: 95vw;
-    height: 50vw;
-    overflow: hidden;
   
-  }
-  
-  .slides{
-    width: 450%;
-    height: 400px;
-    display: flex;
-  }
-  
-  .slides input{
-    display: none;
-  }
-  
-  .slide{
-    width: 25%;
-    position: center;
-    transition: 1s;
-  }
-  
-  .slide img{
-    width: 95vw;
-    height: 50vw;
-   
-  }
-  
-  .manual-navigation{
-    position: absolute;
-    width: 95vw;
-    margin-top: -56px;
-    display: flex;
-    justify-content: center;
-  }
-  
-  .manual-btn{
-    border: 1px solid #fff;
-    padding: 5px;
-    border-radius: 3px;
-    cursor: pointer;
-    transition: 1s;
- 
-    
-  }
-    
-  .navigation-auto{
-    position: absolute;
-    width: 95vw;
-    margin-top: 40vw;
-    display: flex;
-    justify-content: center;
-  }
-   */
 
   .cabecalho{
     display: flex;
@@ -1200,3 +991,4 @@ img {
   }
 
 } 
+ */
