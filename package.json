@@ -9,7 +9,8 @@
   "devDependencies": {},
   "scripts": {
     "server": "webpack-dashboard -- webpack-dev-server --inline --port 8080",
-    "webdriver-update": "webdriver-manager update"
+    "webdriver-update": "webdriver-manager update",
+    "start": "node index.html"
  },
   "repository": {
     "type": "git",
