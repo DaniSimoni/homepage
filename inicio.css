@@ -207,7 +207,7 @@ p {
   flex-wrap: wrap;
   gap: 0;
   margin: 0 auto;
-  width: 90%;
+  width: 400%;
   height: auto;
   overflow: hidden;
 
@@ -217,9 +217,8 @@ p {
   width: 100%;
   height: auto;
   display: flex;
-  flex-wrap: wrap;
-  gap: 0;
-
+  
+ 
 }
 
 .slides input{
@@ -233,7 +232,7 @@ p {
 }
 
 .slide img{
-  width: 400%;
+  width: 90%;
   height: 75%;
 
 }
@@ -244,6 +243,7 @@ p {
   margin-top: -27%;
   display: flex;
   flex-wrap: wrap;
+  gap: 2;
   justify-content: center;
 }
 
