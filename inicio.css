@@ -217,6 +217,8 @@ p {
   width: 100%;
   height: auto;
   display: flex;
+  flex-wrap: wrap;
+  gap: 0;
 
 }
 
@@ -232,14 +234,14 @@ p {
 
 .slide img{
   width: 400%;
-  height: 80%;
+  height: 75%;
 
 }
 
 .manual-navigation{
   position: absolute;
   width: 90%;
-  margin-top: -30%;
+  margin-top: -27%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -279,7 +281,7 @@ p {
 }
 
 .navigation-auto div{
-  border: 2px solid #20a6ff;
+  border: 0.1vh solid #20a6ff;
   padding: 5px;
   border-radius: 10px;
   cursor: pointer;
@@ -289,13 +291,13 @@ p {
 .navigation-auto{
   position: absolute;
   width: 90%;
-  margin-top: 47%;
+  margin-top: 45%;
   display: flex;
   justify-content: center;
 }
 
 .navigation-auto div:not(:last-child){
-  margin-right: 40px;
+  margin-right: 10%;
 }
 
 #radio1:checked ~ .navigation-auto .auto-btn1{
