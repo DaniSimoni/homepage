@@ -31,14 +31,16 @@
     }
  
     @keyframes mymove {
-      0%   {top: 0px; left: 0px; color: red;}
-      25%  {top: 0px; left: 100px; color: blue;}
-      50%  {top: 100px; left: 100px; color: yellow;}
-      75%  {top: 100px; left: 0px; color: green;}
-      100% {top: 0px; left: 0px; color: red;}
+      0%   {top: 0px; left: 0px; color: rgb(149 114 252);}
+      25%  {top: 0px; left: 100px; color: rgb(67 231 17);}
+      50%  {top: 100px; left: 100px; color: rgb(94 94 94);}
+      75%  {top: 100px; left: 0px; color: white;}
+      100% {top: 0px; left: 0px; color: rgb(149 114 252);}
     }
 
   h1 {
+    display: flex;
+    justify-content: center;
     font-family: 'Big Shoulders Inline Text', cursive;
     font-size: 70px;
     background-image: var(--gradient);
@@ -131,33 +133,7 @@ capaimg {
 }
 
 
-@media(max-width: 700px){}
-
-@keyframes mymove {
-  0%   {top: 0px; left: 0px; color: red;}
-  25%  {top: 0px; left: 100px; color: blue;}
-  50%  {top: 100px; left: 100px; color: yellow;}
-  75%  {top: 100px; left: 0px; color: green;}
-  100% {top: 0px; left: 0px; color: red;}
-}
-
-h1 {
-font-family: 'Big Shoulders Inline Text', cursive;
-font-size: 70px;
-background-image: var(--gradient);
-
-background-clip: text;
--webkit-background-clip: text;
-color: transparent;
-padding-bottom: 0px;
 
 
-
-  animation-duration: 10s;
-  animation-name: mymove;
-  animation-iteration-count: 1;
- 
-  
-}
     
 
