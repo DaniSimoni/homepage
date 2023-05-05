@@ -107,7 +107,7 @@ h3 {
   justify-content: center;
   align-items: center;
   background-color: #6666ff;
-  font-family: Aclonica;
+  font-family: Aclonica, serif;
   padding: 3%;
   margin: 3% auto 0 auto;
   width: 70%;
@@ -170,6 +170,8 @@ p {
 
 .cabecalho{
   display: flex;
+  flex-wrap: wrap;
+  gap: 2px;
   justify-content: center;
   align-items: center;
   background-image: linear-gradient(to right, rgba(255,0,0,0), #6666ff);
@@ -177,13 +179,17 @@ p {
 }
 
 .iconTop {
-  
-  width: 22.816166883963493vh;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2vh;
+  justify-content: center;
+  align-items: center;
+  width: 18.816166883963493vh;
   height: auto;
   border: 1vh solid #6666ff;
   border-radius: 50%;
   padding: 1vh;
-  margin: 2vh 1vh 2vh 50%;
+  margin: 2vh 2vh 2vh 5vh;
   background: white;
   
 
@@ -191,10 +197,12 @@ p {
 
 .titulo{
   display: flex;
+  flex-wrap: wrap;
+  gap: 2px;
   justify-content: center;
   align-items: center;
-  font-size: 600%;
-  margin-right: 50%;
+  font-size: 400%;
+  margin: 0 5% 0 0;
   font-family: 'Big Shoulders Inline Text', cursive;
 
 }
@@ -244,17 +252,19 @@ p {
 .containerSlider {
   display: flex;
   flex: wrap;
+  gap: 20px;
   justify-content: center;
   align-items: center;
+  margin: 0 10px;
 }
 
-.sliderControle {
+/* .sliderControle {
   display: flex;
   flex-wrap: wrap;
   width: 100vh;
   height: auto;
   margin: 0 104.30247718383312vh;
-}
+} */
 
 .slider{
   display: flex;
@@ -266,6 +276,7 @@ p {
 }
 
 .slides{
+  
   width: 400%;
   height: 52.15123859191656vh;
   display: flex;
