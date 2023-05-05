@@ -184,7 +184,7 @@ p {
   gap: 2vh;
   justify-content: center;
   align-items: center;
-  width: 18.816166883963493vh;
+  width: 15.816166883963493vh;
   height: auto;
   border: 1vh solid #6666ff;
   border-radius: 50%;
@@ -201,7 +201,7 @@ p {
   gap: 2px;
   justify-content: center;
   align-items: center;
-  font-size: 400%;
+  font-size: 300%;
   margin: 0 5% 0 0;
   font-family: 'Big Shoulders Inline Text', cursive;
 
