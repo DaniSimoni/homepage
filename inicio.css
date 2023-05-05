@@ -3,7 +3,7 @@
   padding: 0;
   border: 0;
   box-sizing: border-box;
-  heigth: 100%;
+ 
   background-size: 100%;
 }
 
@@ -39,10 +39,9 @@ a {
   font-family: 'Big Shoulders Inline Text', cursive;
   border-radius: 50%;
   padding: 1.5645371577574967vh 0 0 0;
-  background-image: linear-gradient(to right, #6666ff, #fff);
   width: 20vh;
   height: 20vh;
-  box-shadow: 0.1vh 0.1vh #fff, - 1vh 0 0.8vh #6666ff;
+ 
 }
 
 .imgIcon{
@@ -69,12 +68,12 @@ a {
   background-image: var(--gradient);
   background-clip: text;
   -webkit-background-clip: text;
-  color: black;
+  color: #fff;
   box-shadow: 0.1vh 0.1vh #fff, - 1vh 0 0.8vh #6666ff;
 
-  animation-duration: 15s;
+  animation-duration: 5s;
   animation-name: mymove;
-  animation-iteration-count: 3s;
+  animation-iteration-count: 1s;
   
 
 }
@@ -91,7 +90,7 @@ h1 {
   background-image: var(--gradient);
   background-clip: text;
   -webkit-background-clip: text;
-  color: black;
+  color: white;
   place-content: left;
   margin-left: 10%;
   display: grid;
@@ -149,7 +148,7 @@ p {
 } 
 
 
-.list{
+/* .list{
   display: flex;
   flex-wrap: wrap;
   font-family: 'Libre Barcode 39 Text', cursive;
@@ -158,7 +157,7 @@ p {
   background: white;
   padding: 2vh;
   margin-bottom: 5%;
-}
+} */
 
 .tag1{
   display:flex;
@@ -172,19 +171,31 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: white;
+  background-image: linear-gradient(to right, rgba(255,0,0,0), #6666ff);
   margin: 5px auto;
+}
+
+.iconTop {
+  
+  width: 22.816166883963493vh;
+  height: auto;
+  border: 1vh solid #6666ff;
+  border-radius: 50%;
+  padding: 1vh;
+  margin: 2vh 1vh 2vh 50%;
+  background: white;
+  
+
 }
 
 .titulo{
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 80px;
-  background: white;
-  margin: 5% auto;
-  font-family: 'Libre Barcode 39 Text', cursive;
-  width: 300px;
+  font-size: 600%;
+  margin-right: 50%;
+  font-family: 'Big Shoulders Inline Text', cursive;
+
 }
 
     
@@ -230,21 +241,16 @@ p {
 }
 
 .containerSlider {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 100%;
   display: flex;
   flex: wrap;
   justify-content: center;
   align-items: center;
-
 }
 
 .sliderControle {
   display: flex;
   flex-wrap: wrap;
-  width: auto;
+  width: 100vh;
   height: auto;
   margin: 0 104.30247718383312vh;
 }
@@ -253,7 +259,6 @@ p {
   display: flex;
   flex-wrap: wrap;
   gap: 0;
-/*   margin: 0 5vh 0 auto; */
   width: 104.30247718383312vh;
   height: 52.15123859191656vh;
   overflow: hidden;
@@ -368,10 +373,10 @@ p {
 
 
 @keyframes mymove {
-  0%   {top: 0px; left: 0px; color: rgb(149 114 252);}
+  0%   {top: 0px; left: 0px; color: #ffff;}
   25%  {top: 0px; left: 100px; color: rgb(67 231 17);}
-  50%  {top: 100px; left: 100px; color: rgb(94 94 94);}
-  75%  {top: 100px; left: 0px; color: white;}
+  50%  {top: 100px; left: 100px; color: orange;}
+  75%  {top: 100px; left: 0px; color: yellow;}
   100% {top: 0px; left: 0px; color: rgb(149 114 252);}
 }
   
