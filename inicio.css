@@ -3,7 +3,6 @@
   padding: 0;
   border: 0;
   box-sizing: border-box;
- 
   background-size: 100%;
 }
 
@@ -23,15 +22,18 @@ body {
 .painel {
   display: flex;
   flex-wrap: wrap;
+  gap: 1em;
   justify-content: center;
   align-items: center;
-  margin: 2.3vh 2vh;
+  margin: 2.3em 2em;
   
 }
 
 a {
   text-decoration: none;
 }
+
+
 .imgpainel {
   display: grid;
   flex-wrap: wrap;
@@ -54,7 +56,6 @@ a {
   position: stick;
   top: 0.00005vh;
   left: 0.0005vh;
-
   padding: 0 0 0 0;
 }
 
@@ -149,17 +150,6 @@ p {
 } 
 
 
-/* .list{
-  display: flex;
-  flex-wrap: wrap;
-  font-family: 'Libre Barcode 39 Text', cursive;
-  font-size: 280%;
-  color: #000;
-  background: white;
-  padding: 2vh;
-  margin-bottom: 5%;
-} */
-
 .tag1{
   display:flex;
   flex-wrap: wrap;
@@ -251,20 +241,13 @@ p {
 
 .containerSlider {
   display: flex;
-  flex: wrap;
-  gap: 20px;
+  flex-wrap: wrap;
+  gap: 1em;
   justify-content: center;
   align-items: center;
   margin: 0 10px;
 }
 
-/* .sliderControle {
-  display: flex;
-  flex-wrap: wrap;
-  width: 100vh;
-  height: auto;
-  margin: 0 104.30247718383312vh;
-} */
 
 .slider{
   display: flex;
@@ -540,6 +523,110 @@ img , .img2 {
 
 
 
+
+
+
+
+
+
+@media screen and (min-width: 720px) and (max-width: 1280px) {
+
+ .sliderControle{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  max-width: 100%;
+  
+ } 
+
+.containerSlider {
+  display: flex;
+  flex: wrap;
+  gap: 1em;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0.625;
+}
+
+.slider{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  width: 40rem;
+  height: 22.5rem;
+  overflow: hidden;
+}
+
+.slides{
+  
+  width: 400%;
+  height: 38rem;
+  display: flex;
+/*   flex-wrap: wrap;
+  gap: 1rem; */
+}
+
+.slides input{
+  display: none;
+}
+
+.slide{
+  width: 25%;
+  position: relative;
+}
+
+.slide img{
+  width: 40rem;
+}
+
+.manual-navigation{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0rem;
+  justify-content: center;
+  position: absolute;
+  width: 40rem;
+  margin-top: 19rem;
+  
+}
+
+.manual-btn{
+  border: 0.150rem solid #20a6ff;
+  padding:  0.125rem;
+  border-radius: 1.303780964797914vw;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.manual-btn:not(:last-child){
+ margin-right: 5rem;
+
+}
+
+
+.navigation-auto div{
+  border: 0.625 solid #20a6ff;
+  padding: 0.225rem;
+  border-radius: 0.625rem;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.navigation-auto{
+  position: absolute;
+  width: 21.25rem;
+  margin-top: 20rem;
+  display: flex;
+  justify-content: center;
+  margin-left: 10rem;
+}
+
+.navigation-auto div:not(:last-child){
+  margin-right: 5rem;
+}
+
+}
 
 
 
